@@ -18,6 +18,7 @@ function App() {
   else{
     setMode('light')
     document.body.style.backgroundColor = "white"
+     document.body.style.color = "black"
   }
 
  }
