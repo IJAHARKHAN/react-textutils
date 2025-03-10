@@ -52,7 +52,7 @@ function TextForm(props) {
         <Alert alert={alert} alertMessage={alertMessage}/>
 
         <div className="container">
-        <div className="my-2">
+        <div className="my-1">
         <h4 htmlFor="exampleFormControlTextarea1" className="form-label">{props.formText}</h4>
         <textarea className="form-control" style={{ backgroundColor: props.mode === 'light' ? 'white' : 'black', color: props.mode === 'light' ? 'black' : 'white' }} id="exampleFormControlTextarea1" rows="5" value={text} onChange={(e) => {setText(e.target.value)}} placeholder='Enter Text..'></textarea>
         </div>
