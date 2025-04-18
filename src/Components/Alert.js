@@ -5,7 +5,7 @@ export default function Alert(props) {
   return (
     <>
     { props.alert === 1 && (
-        <div className="container my-4">
+        <div>
      <div class="alert alert-success" role="alert">
             <b>Success!</b> {props.alertMessage}
           </div>
